@@ -16,6 +16,7 @@ FILE(GLOB_RECURSE CIOT_CORE_SRCS  ${CIOT_DIR}/src/core/*.c)
 FILE(GLOB_RECURSE CIOT_NANOPB_C_SRCS ${CIOT_DIR}/src/proto/nanopb/*.c)
 FILE(GLOB_RECURSE CIOT_PB_V1_SRCS ${CIOT_DIR}/src/proto/ciot/proto/v1/*.c)
 FILE(GLOB_RECURSE CIOT_PB_V2_SRCS ${CIOT_DIR}/src/proto/ciot/proto/v2/*.c)
+FILE(GLOB_RECURSE SPARKPLUGB_V1_SRCS ${CIOT_DIR}/src/proto/sparkplug-b/proto/v1/*.c)
 FILE(GLOB_RECURSE CIOT_MBED_SRCS ${CIOT_DIR}/libs/crypt/*.c)
 FILE(GLOB_RECURSE CIOT_MBUS_SRCS ${CIOT_DIR}/libs/nanomodbus/*.c)
 
